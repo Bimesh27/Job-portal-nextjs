@@ -71,6 +71,7 @@ function Header({ user }: { user: unknown }) {
                 </Link>
               ) : null
             )}
+            <UserButton afterSwitchSessionUrl="/" />
           </div>
         </SheetContent>
       </Sheet>
@@ -89,7 +90,7 @@ function Header({ user }: { user: unknown }) {
             </Link>
           ) : null
         )}
-        <UserButton afterSwitchSessionUrl="/"/>
+        <UserButton afterSwitchSessionUrl="/" />
       </nav>
     </header>
   );
